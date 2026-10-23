@@ -1,12 +1,12 @@
-{% set version = "2.16.2" %}
+{% set version = "2.17" %}
 
 package:
   name: pyicu
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/P/PyICU/pyicu-{{ version }}.tar.gz
-  sha256: 006d51e24b5ec76df6ec2130f3dde269c51db8b8cfebb7d45a427dde0d10aa52
+  url: https://files.pythonhosted.org/packages/source/P/PyICU/pyicu-{{ version }}.tar.gz
+  sha256: 6138b95ac9592fa3983bf489e0c625e8fcfffd0c562a36a08269cecc4ffb48be
 
 build:
   number: 0
